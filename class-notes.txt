@@ -1,0 +1,15 @@
+Find how many freelancing webs
+look roadmap.sh - tech stack
+install VS code, git, gitbash
+create 1 page resume
+
+check out: 
+www.freecodecamp.org
+everything is freeeeeee
+
+to learn something... watch YT videos
+to master something ... read the documentation
+
+mdn docs for _________
+
+try all vorder styles
