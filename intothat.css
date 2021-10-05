@@ -71,7 +71,6 @@
     margin: 15px;
     justify-content: space-evenly;
     display: flex;
-    /* or inline-flex */
     flex-direction: row;
     align-self: center;
 }
@@ -81,4 +80,9 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    
+}
+
+#para{
+    max-height: 250px;
 }
