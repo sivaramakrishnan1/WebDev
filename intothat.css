@@ -1,0 +1,125 @@
+#image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#head {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 100px;
+    font-family: "DM Sans";
+    font-weight: 2000;
+}
+
+#cap {
+    margin-top: 1px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "DM Sans";
+    letter-spacing: 8px;
+    font-weight: 700;
+
+}
+
+.bod1 {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 20px;
+    padding: 50px;
+    margin: 25px;
+    margin-bottom: 0px;
+    border-radius: 50px 50px 0px 0px;
+
+}
+
+.list {
+    display: block;
+    color: rgb(255, 254, 254);
+    background: rgb(12, 164, 202);
+    font-size: 20px;
+    font-family: "DM Sans";
+    padding: 50px;
+    margin: 25px;
+    margin-top: 0px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.listout {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.listin {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    font-size: 20px;
+
+}
+
+.external {
+    margin: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: start;
+}
+
+
+.internal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.para_content {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.footer {
+    background-color: rgb(205, 214, 171);
+    margin: 100px;
+    padding: 25px;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: "DM Sans";
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inter {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(54, 68, 5);
+}
+
+.logos {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
