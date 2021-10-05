@@ -30,18 +30,13 @@
     display: block;
     color: rgb(255, 255, 255);
     background: rgb(2, 0, 36);
-    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 48%, rgba(2, 161, 193, 1) 100%);
+    background: radial-gradient(rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(2, 161, 193, 1) 100%);
     text-align: center;
     font-family: "DM Sans";
     padding: 50px;
     margin: 50px;
     border-radius: 20px;
 
-}
-
-#subhead {
-    font-size: medium;
-    text-align: left;
 }
 
 .list {
@@ -57,32 +52,67 @@
     border-radius: 20px;
 }
 
-#luffykun {
-    
-    max-width: 500px;
-    border-radius: 20px;
-    height:fit-content ;
-    margin: 50px ;
-}
-
-
-
-.listout {
-    margin: 15px;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-}
-
-.inlist{
-    
+.external {
+    margin: 25px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
-    align-self: center;
-    
+    background-color: bisque;
+    justify-content: start;
 }
 
-#para{
-    max-height: 250px;
+
+.internal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.para_content {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.footer {
+    background-color: rgb(205, 214, 171);
+    margin: 100px;
+    padding: 25px;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: "DM Sans";
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+.outer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.inter 
+{
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color: rgb(54, 68, 5);
+}
+
+.logos
+{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
 }
